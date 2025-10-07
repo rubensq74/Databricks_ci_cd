@@ -136,7 +136,7 @@ jobs:
               "name": "storage_account",
               "default": "adlsecommerce"
             }
-          ]
+          ],
           "tasks": [
             {
               "task_key": "tarea1_prepared",
