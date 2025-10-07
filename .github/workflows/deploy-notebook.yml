@@ -112,12 +112,13 @@ jobs:
           
         fi
     
-    - name: Create Databricks Workflow $WORKFLOW_NAME
+    - name: Create Databricks Workflow WF_ECOMMERCE_SALES
       run: |
         DEST_HOST=${{ secrets.DATABRICKS_DEST_HOST }}
         DEST_TOKEN=${{ secrets.DATABRICKS_DEST_TOKEN }}
         DEST_BASE="/py/scripts/main"
         CLUSTER_ID="${{ env.CLUSTER_ID }}"
+        WORKFLOW_NAME="WF_ECOMMERCE_SALES"
         
         echo "Creando workflow: $WORKFLOW_NAME con cluster existente ID: $CLUSTER_ID"
         
