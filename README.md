@@ -1,4 +1,4 @@
-# ETL de Ventas E-Commerce 2023--2025 con Databricks y Azure
+# Diseño e Implementación de un Pipeline ETL para la Integración y Análisis de Ventas E-Commerce (2023-2025)
 
 **Autor:** Ing. Rubén Soria\
 **Docente:** Ing. Anthony Huaccachi\
@@ -221,6 +221,6 @@ Esta capa se emplea como **fuente principal para el análisis BI**.
 ##  Autor
 
 **Ing. Rubén Soria**\
-Technical Product Owner\
-📧 *\[ruben.soria@outlook.com\]*\
-💼 *\[LinkedIn: private\]*
+Data Engineer\
+📧 *\[ruben.soria@outlook.com]*\
+💼 *\[LinkedIn: https://www.linkedin.com/in/rubensoria-sys/]*
